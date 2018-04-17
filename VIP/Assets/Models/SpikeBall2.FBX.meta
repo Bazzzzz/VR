@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: 36491ddabce9ffb45adb32a812cf651a
+timeCreated: 1523980599
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BallChainJoint
+    100002: Line001
+    100004: MainSpike001
+    100006: MainSpike002
+    100008: MainSpike003
+    100010: MainSpike004
+    100012: MainSpike005
+    100014: MainSpike006
+    100016: //RootNode
+    100018: Spiked Ball
+    100020: SubSpike001
+    100022: SubSpike002
+    100024: SubSpike003
+    100026: SubSpike004
+    100028: SubSpike005
+    100030: SubSpike006
+    100032: SubSpike007
+    100034: SubSpike008
+    100036: Torus001
+    100038: Torus002
+    100040: Torus003
+    100042: Torus004
+    100044: Torus005
+    100046: Torus006
+    100048: Torus007
+    100050: Torus008
+    100052: Torus009
+    100054: Torus010
+    100056: Torus011
+    400000: BallChainJoint
+    400002: Line001
+    400004: MainSpike001
+    400006: MainSpike002
+    400008: MainSpike003
+    400010: MainSpike004
+    400012: MainSpike005
+    400014: MainSpike006
+    400016: //RootNode
+    400018: Spiked Ball
+    400020: SubSpike001
+    400022: SubSpike002
+    400024: SubSpike003
+    400026: SubSpike004
+    400028: SubSpike005
+    400030: SubSpike006
+    400032: SubSpike007
+    400034: SubSpike008
+    400036: Torus001
+    400038: Torus002
+    400040: Torus003
+    400042: Torus004
+    400044: Torus005
+    400046: Torus006
+    400048: Torus007
+    400050: Torus008
+    400052: Torus009
+    400054: Torus010
+    400056: Torus011
+    2100000: BallMain
+    2100002: BallSide
+    2100004: Chain
+    2300000: BallChainJoint
+    2300002: MainSpike001
+    2300004: MainSpike002
+    2300006: MainSpike003
+    2300008: MainSpike004
+    2300010: MainSpike005
+    2300012: MainSpike006
+    2300014: Spiked Ball
+    2300016: SubSpike001
+    2300018: SubSpike002
+    2300020: SubSpike003
+    2300022: SubSpike004
+    2300024: SubSpike005
+    2300026: SubSpike006
+    2300028: SubSpike007
+    2300030: SubSpike008
+    2300032: Torus001
+    2300034: Torus002
+    2300036: Torus003
+    2300038: Torus004
+    2300040: Torus005
+    2300042: Torus006
+    2300044: Torus007
+    2300046: Torus008
+    2300048: Torus009
+    2300050: Torus010
+    2300052: Torus011
+    3300000: BallChainJoint
+    3300002: MainSpike001
+    3300004: MainSpike002
+    3300006: MainSpike003
+    3300008: MainSpike004
+    3300010: MainSpike005
+    3300012: MainSpike006
+    3300014: Spiked Ball
+    3300016: SubSpike001
+    3300018: SubSpike002
+    3300020: SubSpike003
+    3300022: SubSpike004
+    3300024: SubSpike005
+    3300026: SubSpike006
+    3300028: SubSpike007
+    3300030: SubSpike008
+    3300032: Torus001
+    3300034: Torus002
+    3300036: Torus003
+    3300038: Torus004
+    3300040: Torus005
+    3300042: Torus006
+    3300044: Torus007
+    3300046: Torus008
+    3300048: Torus009
+    3300050: Torus010
+    3300052: Torus011
+    4300000: Spiked Ball
+    4300002: MainSpike001
+    4300004: MainSpike002
+    4300006: MainSpike003
+    4300008: MainSpike004
+    4300010: MainSpike005
+    4300012: MainSpike006
+    4300014: SubSpike001
+    4300016: SubSpike002
+    4300018: SubSpike003
+    4300020: SubSpike004
+    4300022: SubSpike005
+    4300024: SubSpike006
+    4300026: SubSpike007
+    4300028: SubSpike008
+    4300030: BallChainJoint
+    4300032: Torus001
+    4300034: Torus002
+    4300036: Torus003
+    4300038: Torus004
+    4300040: Torus005
+    4300042: Torus006
+    4300044: Torus007
+    4300046: Torus008
+    4300048: Torus009
+    4300050: Torus010
+    4300052: Torus011
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

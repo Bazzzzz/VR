@@ -712,12 +712,12 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: fb04da2d-19b9-4f22-a3e9-5db5097b3ea3
-  projectName: 
+  projectName: VIP (1)
   organizationId: unity_ra82s3izooibia
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
