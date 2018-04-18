@@ -300,6 +300,17 @@
     <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Sounds\The Legend of Zelda - Breath of the Wild\Environment\EnvSoundGrass\Env_Grass_Shake_LOOP.txt" />
+    <None Include="Assets\Sounds\The Legend of Zelda - Breath of the Wild\Environment\EnvSoundGrass\GrassBurningL_LOOP.txt" />
+    <None Include="Assets\Sounds\The Legend of Zelda - Breath of the Wild\Environment\EnvSoundTree\SE_LeafRub01_LOOP.txt" />
+    <None Include="Assets\Sounds\The Legend of Zelda - Breath of the Wild\Miscellaneous\AncientBallBigForGyro\AncientBallBig_RollForGyro01_LOOP.txt" />
+    <None Include="Assets\Sounds\The Legend of Zelda - Breath of the Wild\Miscellaneous\AncientBallBigForGyro\AncientBall_RollEffect01_LOOP.txt" />
+    <None Include="Assets\Sounds\The Legend of Zelda - Breath of the Wild\Miscellaneous\AncientBallBigForPutter\AncientBallBig_RollForGyro01_LOOP.txt" />
+    <None Include="Assets\Sounds\The Legend of Zelda - Breath of the Wild\Miscellaneous\AncientBallBigForPutter\AncientBall_RollEffect01_LOOP.txt" />
+    <None Include="Assets\Sounds\The Legend of Zelda - Breath of the Wild\Miscellaneous\AncientBallForGyro\AncientBall_RollEffect01_LOOP.txt" />
+    <None Include="Assets\Sounds\The Legend of Zelda - Breath of the Wild\Miscellaneous\AncientBallNew\AncientBall_RollEffect01_LOOP.txt" />
+    <None Include="Assets\Sounds\The Legend of Zelda - Breath of the Wild\Miscellaneous\AncientBallNewBig\AncientBallBig_RollForGyro01_LOOP.txt" />
+    <None Include="Assets\Sounds\The Legend of Zelda - Breath of the Wild\Miscellaneous\AncientBallNewBig\AncientBall_RollEffect01_LOOP.txt" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />

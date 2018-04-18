@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SceneManager : MonoBehaviour {
-	public int currentLevel = 0;
-
-	public string[] levelNames = new string[2] {"StartScene", "MainScene"  };
+	public string[] levelNames = new string[2] {"StartScene", "MainScene" };
 
 	static SceneManager s = null;
 	// Use this for initialization
@@ -25,6 +23,9 @@ public class SceneManager : MonoBehaviour {
 
 	public void EnterTempleClick() {
 		SteamVR_LoadLevel.Begin (levelNames[1]);
-		currentLevel = (currentLevel + 1) % 2;
 	}
+    public void ExitTempleClick()
+    {
+        SteamVR_LoadLevel.Begin(levelNames[0]);
+    }
 }

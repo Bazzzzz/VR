@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class AmbientSoundController : MonoBehaviour {
     public AudioClip[] audioClips;
+    public bool playSounds;
+
     private AudioSource source;
 
     private bool soundIsPlaying;
@@ -13,13 +15,14 @@ public class AmbientSoundController : MonoBehaviour {
     void Start () {
         source = GetComponent<AudioSource>();
         soundIsPlaying = false;
+        playSounds = true;
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if (!soundIsPlaying)
+        if (!soundIsPlaying && playSounds)
         {
             StartCoroutine("playAmbientSound");
         }
@@ -36,15 +39,15 @@ public class AmbientSoundController : MonoBehaviour {
 
         //source.PlayOneShot(audioClips[randomNumber], vol);
         // Pick a random pitch to play it at
-        int randomPitch = Random.Range(1, 10);
-        source.pitch = (int)randomPitch;
-        source.volume = vol;
+        //int randomPitch = Random.Range(1, 10);
+        //source.pitch = (int)randomPitch;
+        source.volume = 1.0f;
         // Play the sound
         source.Play();
 
         float randomWaitSeconds = Random.Range(1, 5);
 
-        yield return new WaitForSeconds(source.clip.length + randomWaitSeconds);
+        yield return new WaitForSeconds(source.clip.length + Time.deltaTime);
         soundIsPlaying = false;
     }
 }

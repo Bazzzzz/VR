@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour {
 	public GameObject door;
-
+    
 	void OnTriggerEnter(Collider other) {
 		Debug.Log ("OnEnterTrigger by: " + other.gameObject.tag);
 		if ("TriggerBall".Equals(other.gameObject.tag)) {
 			if (door != null) {
 				door.GetComponent<DoorController> ().TriggerDoorSuccess ();
-				other.GetComponent<Rigidbody> ().isKinematic = true;
+
+				//other.GetComponent<Rigidbody> ().isKinematic = true;
 			}
 		}
 	}
