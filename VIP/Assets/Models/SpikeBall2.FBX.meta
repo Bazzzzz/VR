@@ -147,6 +147,33 @@ ModelImporter:
     4300048: Torus009
     4300050: Torus010
     4300052: Torus011
+    6400000: BallChainJoint
+    6400002: MainSpike001
+    6400004: MainSpike002
+    6400006: MainSpike003
+    6400008: MainSpike004
+    6400010: MainSpike005
+    6400012: MainSpike006
+    6400014: Spiked Ball
+    6400016: SubSpike001
+    6400018: SubSpike002
+    6400020: SubSpike003
+    6400022: SubSpike004
+    6400024: SubSpike005
+    6400026: SubSpike006
+    6400028: SubSpike007
+    6400030: SubSpike008
+    6400032: Torus001
+    6400034: Torus002
+    6400036: Torus003
+    6400038: Torus004
+    6400040: Torus005
+    6400042: Torus006
+    6400044: Torus007
+    6400046: Torus008
+    6400048: Torus009
+    6400050: Torus010
+    6400052: Torus011
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -180,7 +207,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -191,8 +218,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
