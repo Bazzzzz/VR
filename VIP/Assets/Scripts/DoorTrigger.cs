@@ -9,7 +9,7 @@ public class DoorTrigger : MonoBehaviour {
 		Debug.Log ("OnEnterTrigger by: " + other.gameObject.tag);
 		if ("TriggerBall".Equals(other.gameObject.tag)) {
 			if (door != null) {
-				door.GetComponent<DoorController> ().TriggerDoorUnactive ();
+                door.GetComponent<DoorController>().HandleTriggerDoorUnactive();
 
 				//other.GetComponent<Rigidbody> ().isKinematic = true;
 			}
@@ -20,7 +20,7 @@ public class DoorTrigger : MonoBehaviour {
 
 		if ("TriggerBall".Equals(other.gameObject.tag)) {
 			if (door != null) {
-				door.GetComponent<DoorController> ().TriggerDoorActive ();
+				door.GetComponent<DoorController> ().HandleTriggerDoorActive();
 			}
 		}
 	}
