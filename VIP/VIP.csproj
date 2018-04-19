@@ -294,6 +294,7 @@
     <Compile Include="Assets\Scripts\GoblinController.cs" />
     <Compile Include="Assets\Scripts\InteractableItem.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SceneManager.cs" />
     <Compile Include="Assets\Scripts\VRTouchpadMove.cs" />
     <Compile Include="Assets\Scripts\VRUIInput.cs" />

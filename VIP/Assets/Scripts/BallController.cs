@@ -5,7 +5,7 @@ using UnityEngine;
 public class BallController : MonoBehaviour
 {
     public bool isAvailable = false;
-    public Vector3 standardPosition;
+    private Vector3 standardPosition;
     public GoblinController gc;
     private AudioSource audioSource;
     public AudioClip[] audioClips;
@@ -28,6 +28,10 @@ public class BallController : MonoBehaviour
         {
             isAvailable = true;
             playBounceSound();
+        }
+        if ("Terrain".Equals(coll.gameObject.tag))
+        {
+            isAvailable = false;
         }
     }
 

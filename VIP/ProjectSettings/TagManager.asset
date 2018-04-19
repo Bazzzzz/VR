@@ -8,6 +8,7 @@ TagManager:
   - Goblin
   - Floor
   - SpikedBall
+  - Terrain
   layers:
   - Default
   - TransparentFX
