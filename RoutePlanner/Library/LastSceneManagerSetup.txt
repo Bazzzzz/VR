@@ -1,0 +1,10 @@
+sceneSetups:
+- path: Assets/Scenes/MapBox/Prototype.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/MapBox Imported Assets/Mapbox/Examples/5_Playground/Scenes/Directions.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/MapBox Imported Assets/Mapbox/Examples/6_POIPlacement/POIPlacement.unity
+  isLoaded: 0
+  isActive: 0
