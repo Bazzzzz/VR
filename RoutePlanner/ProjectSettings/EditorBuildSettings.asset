@@ -5,7 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/MapBox/Prototype.unity
+    guid: 206680098d403654ca078c2dfdf91906
+  - enabled: 0
+    path: Assets/MapBox Imported Assets/Mapbox/Examples/5_Playground/Scenes/Directions.unity
+    guid: b650aa71f57a846dc83ef01c3c1755ad
+  - enabled: 0
+    path: Assets/MapBox Imported Assets/Mapbox/Examples/6_POIPlacement/POIPlacement.unity
+    guid: c600a8b272a5846a1b71bdc2d0796637
+  - enabled: 1
+    path: Assets/Wrld/Scenes/UnityWorldSpace.unity
+    guid: 091eb113e53a5b041a195b9f93dffce5
+  - enabled: 0
+    path: Assets/Wrld/Demo/Examples.unity
+    guid: beb2f7514d9783242b909f95ecf30d4a
   m_configObjects: {}

@@ -10,7 +10,8 @@ public class WayPointController : MonoBehaviour {
     private List<Waypoint> waypointsToSpawn;
     private List<Waypoint> waypointsSpawned;
     private List<Route> routes;
-
+    private List<Vector3> points3D;
+    private List<Vector2d> points2D;
 
     public AbstractMap map;
     public LineRenderer lineRenderer;
@@ -18,7 +19,10 @@ public class WayPointController : MonoBehaviour {
 
     void Start()
     {
+        DontDestroyOnLoad(transform.gameObject);
         waypointsSpawned = new List<Waypoint>();
+        points3D = new List<Vector3>();
+        points2D = new List<Vector2d>();
     }
     void Update()
     {
@@ -53,7 +57,8 @@ public class WayPointController : MonoBehaviour {
                         waypointsSpawned.Add(waypoint);
                         Debug.Log("WayPointsToSpawn: " + waypointsToSpawn.Count + " |  WayPointsSpawned: " + waypointsSpawned.Count);
 
-
+                        
+                        
                     }
                 }
             }
@@ -64,7 +69,7 @@ public class WayPointController : MonoBehaviour {
 
                 if (map != null)
                 {
-                    List<Vector3> routePoints = new List<Vector3>();
+                    List<Vector3> routePoints3D = new List<Vector3>();
                     foreach (Route route in routes)
                     {
                         //Debug.Log("Route to Render | Distance: " + route.Distance + " | Legs amount: " + route.Legs.Count);
@@ -76,17 +81,20 @@ public class WayPointController : MonoBehaviour {
                             {
                                 foreach (Vector2d point in step.Geometry)
                                 {
+                                    this.points2D.Add(point);
                                     Vector3 point3D = map.GeoToWorldPosition(point);
                                     //Debug.Log("Point 3D: " + point3D + " for Step: " + step.Name + " (" + step.Maneuver + ")");
-                                    routePoints.Add(point3D);
+                                    routePoints3D.Add(point3D);
                                 }
                             }
                         }
                     }
-                    if (routePoints != null && routePoints.Count > 0)
+                    if (routePoints3D != null && routePoints3D.Count > 0)
                     {
-                        lineRenderer.SetPositions(routePoints.ToArray());
-                        lineRenderer.positionCount = routePoints.Count;
+                        lineRenderer.SetPositions(routePoints3D.ToArray());
+                        lineRenderer.positionCount = routePoints3D.Count;
+
+                        this.points3D.AddRange(routePoints3D);
                     }
                 }
             }
@@ -102,5 +110,23 @@ public class WayPointController : MonoBehaviour {
 
         this.routes = res.Routes;
         
+    }
+
+    public Waypoint GetStartWaypoint()
+    {
+        if (this.waypointsToSpawn != null && this.waypointsToSpawn.Count > 0)
+        {
+            return this.waypointsToSpawn[0];
+        }
+        return null;
+    }
+
+    public List<Vector3> GetRoute3DPoints()
+    {
+        return this.points3D;
+    }
+    public List<Vector2d> GetRoute2DPoints()
+    {
+        return this.points2D;
     }
 }

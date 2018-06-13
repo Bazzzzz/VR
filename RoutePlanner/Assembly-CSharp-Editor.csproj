@@ -146,6 +146,16 @@
      <Compile Include="Assets\MapBox Imported Assets\ThirdPartyAssets\WoLfulus\LineEnding\Editor\LogEntries.cs" />
      <Compile Include="Assets\MapBox Imported Assets\ThirdPartyAssets\WoLfulus\LineEnding\Editor\LogEntry.cs" />
      <Compile Include="Assets\MapBox Imported Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Editor\UnityARBuildPostprocessor.cs" />
+     <Compile Include="Assets\Wrld\Editor\ActiveBuildTargetChangedListener.cs" />
+     <Compile Include="Assets\Wrld\Editor\BuildSucceededListener.cs" />
+     <Compile Include="Assets\Wrld\Editor\CameraJumpEditor.cs" />
+     <Compile Include="Assets\Wrld\Editor\CopyPlatformResources.cs" />
+     <Compile Include="Assets\Wrld\Editor\ExitPlayModeOnScriptCompile.cs" />
+     <Compile Include="Assets\Wrld\Editor\FirstInstallActionsRunner.cs" />
+     <Compile Include="Assets\Wrld\Editor\PlatformHelpers.cs" />
+     <Compile Include="Assets\Wrld\Editor\WillPlayInEditorListener.cs" />
+     <Compile Include="Assets\Wrld\Editor\WrldStartupEditor.cs" />
+     <Compile Include="Assets\Wrld\Editor\XcodeProjectUpdater.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/sebas/Documents/GitHub/VR/RoutePlanner/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

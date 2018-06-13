@@ -1342,7 +1342,7 @@ MonoBehaviour:
         density: 15
       - coreOptions:
           sourceId: 
-          isActive: 0
+          isActive: 1
           sublayerName: All POIs
           geometryType: 0
           layerName: 
