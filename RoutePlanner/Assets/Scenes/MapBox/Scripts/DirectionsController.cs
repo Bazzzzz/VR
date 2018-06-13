@@ -121,8 +121,8 @@ public class DirectionsController : MonoBehaviour {
             if (wayPointController != null)
             {
                 Debug.Log("WayPoint Controller is NOT null");
-
-                wayPointController.GetComponent<WayPointController>().InstantiateWaypoints(res.Waypoints);
+                
+                wayPointController.GetComponent<WayPointController>().InstantiateController(res);
             }
 
             //var data = JsonConvert.SerializeObject(res, Formatting.Indented, JsonConverters.Converters);
